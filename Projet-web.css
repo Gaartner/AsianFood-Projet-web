@@ -1,0 +1,212 @@
+html,body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+
+}
+/*toute les images sont responsive*/
+img 
+{
+	max-width: 100%;
+	height: auto;
+}
+
+/* Limite le  container  width pour les gros  écran*/
+.container 
+{
+	padding: 20px;
+	margin: auto;
+}
+
+/**
+ * By using display: flex
+ * Logo and nav are in 2 cols
+ * align-items make them
+ * vertically centered
+ * justify-content distribute
+ * horizontal spaces around
+ * and flex-wrap break the
+ * things in two lines in
+ * small screens
+ */
+ .header-logo img
+ {
+ 	max-height:100%;
+	height:120px;
+ }
+.header .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color:#C0392B;
+}
+
+/**
+ * The followings are to
+ * make things more
+ * clean and airy
+ * and contents centered
+ */
+.nav-menu ul {
+	margin: 1em 1em;
+	text-align: center;
+}
+.nav-menu li {
+	display: inline;
+}
+.nav-menu a {
+	display: inline-block;
+	padding: 10px 15px;
+	text-decoration: none;
+	color:black;
+	text-transform: uppercase;
+}
+.nav-menu a:hover
+{
+	color:#D0A21E;
+}
+/**/
+
+footer {
+  background-color: #C0392B;
+  color: #bbb;
+  line-height: 1.5;
+}
+footer a {
+  text-decoration: none;
+  color: #eee;
+}
+a:hover {
+  text-decoration: underline;
+}
+.ft-title {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 1.375rem;
+  padding-bottom: 0.625rem;
+}
+/* Sticks footer to bottom */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.container {
+  flex: 1;
+}
+/* Footer main */
+.ft-main {
+  padding: 1.25rem 1.875rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media only screen and (min-width: 29.8125rem /* 477px */) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+@media only screen and (min-width: 77.5rem /* 1240px */) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+.ft-main-item {
+  padding: 1.25rem;
+  min-width: 12.5rem;
+}
+
+/* Footer main | Newsletter form */
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+input[type="email"] {
+  border: 0;
+  padding: 0.625rem;
+  margin-top: 0.3125rem;
+}
+input[type="submit"] {
+  background-color: #00d188;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+  padding: 0.625rem 0.9375rem;
+  margin-top: 0.3125rem;
+}
+/* Footer social */
+.ft-social {
+  padding: 0 1.875rem 1.25rem;
+}
+.ft-social-list {
+  display: flex;
+  justify-content: center;
+  border-top: 1px #777 solid;
+  padding-top: 1.25rem;
+}
+.ft-social-list li {
+  margin: 0.5rem;
+  font-size: 1.25rem;
+}
+/* Footer legal */
+.ft-legal {
+  padding: 0.9375rem 1.875rem;
+  background-color: #78281F  ;
+}
+.ft-legal-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ft-legal-list li {
+  margin: 0.125rem 0.625rem;
+  white-space: nowrap;
+}
+/* one before the last child */
+.ft-legal-list li:nth-last-child(2) {
+    flex
+    }
+@media (max-width: 600px) 
+{
+    .parallax 
+    { 
+	  /* The image used */
+	  background-image: url("image/brandi-ibrao-RjRXzc73bEw-unsplash.jpg");
+
+	  /* Set a specific height */
+	  min-height: 900px;
+	  width: 100%;
+
+	  /* Create the parallax scrolling effect */
+	  background-attachment: fixed;
+	  background-position: center;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	}
+    .block
+    {
+	    height:2500px;
+	    margin: 0;
+	    padding: 0;
+	    display: flex ;
+	    flex-direction: column;
+	    justify-content:space-around;
+	    align-items: center;
+	    background:#F39C12;
+	    font-family: sans-serif;
+  	}
+  	.card 
+  	{
+	  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	  transition: 0.3s;
+	  width: 50%;
+	  border-radius: 5px;
+	}
+	.titre, .texte
+{
+	text-align:right;
+	color:black;
+}
+
+}

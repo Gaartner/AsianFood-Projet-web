@@ -1,9 +1,11 @@
-1. Creation du logo
+1. Creation du logo (fait)
 2. Creation des fichiers
-3. Creation du header
-4. Creation du footer
+3. Creation du header (fait)
+4. Creation du footer (fait)
 5. card hover
 6. Parallax
 7. Reservation 
 8. Menu
 9. Commande en ligne
+
+coucou
