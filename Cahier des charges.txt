@@ -7,5 +7,7 @@
 7. Reservation (fait)
 8. Menu
 9. Commande en ligne
-
-coucou
+10. A propos
+11. Equipe
+12. Service
+13. Commande en ligne

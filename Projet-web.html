@@ -2,7 +2,8 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Projet-web</title>
 	<link rel="icon" href="image/favicon.png" />
 	<link rel="stylesheet" href="Projet-web.css">
@@ -15,116 +16,144 @@
 				<nav class="nav-menu">
 					<ul class="nav-list">
 						<li><a href="#" class="active">Accueil</a></li>
-						<li><a href="#">Menu</a></li>
-						<li><a href="#aboutus">À propos</a></li>
-						<li><a href="#">Contact</a></li>
-						<li><a href="#">Réservation</a></li>
+						<li><a href="Projet-web4.html">Menu</a></li>
+						<li><a href="#about">À propos</a></li>
+						<li><a href="#footer-contact">Contact</a></li>
+						<li><a href="#select-now">Réservation</a></li>
 					</ul>
 				</nav>
 			</div>
 		</header>
 		<main class="main">
-			<form>
-			<h2 class="titre"><span>Reservation</span></h2>
-			<div class="formulaire" name="formul">
-				<div class="selecteurs">
-					<select id='jean' class="bouton-select" name="jour" required>
-					    <option value="">choisir une date</option>
-					    <option value="lundi">lundi</option>
-					    <option value="mardi">mardi</option>
-					    <option value="mercredi"selected>mercredi</option>
-					    <option value="jeudi">jeudi</option>
-					    <option value="vendredi">vendredi</option>
-					    <option value="samedi">samedi</option>
-					    <option value="dimanche">dimanche</option>
-					</select>
-					<select id="timeselect" class="bouton-select"  name="heure"required>
-					    <option value="">choisir une heure</option>
-					    <option value="11h"disabled>11 H</option>
-					    <option value="11 H 30">11 H 30</option>
-					    <option value="12 H ">12 H</option>
-					    <option value="12 H 30"disabled>12 H 30</option>
-					    <option value="13 H ">13 H </option>
-					    <option value="13 H 30">13 H 30</option>
-					    <option value="14 H ">14 H </option>
-					    <option value="14 H 30"disabled>14 H 30</option>
-					    <option value="15 H ">15 H </option>
-					    <option value="15 H 30">15 H 30</option>
-					    <option value="16 H ">16 H </option>
-					    <option value="16 H 30"selected>16 H 30</option>
-					    <option value="17 H ">17 H </option>
-					    <option value="17 H 30">17 H 30</option>
-					    <option value="18 H ">18 H </option>
-					    <option value="18 H 30"disabled>18 H 30</option>
-					    <option value="19 H ">19 H </option>
-					    <option value="19 H 30">19 H 30</option>
-					    <option value="20 H ">20 H </option>
-					    <option value="20 H 30">20 H 30</option>
-					    <option value="21 H "disabled>21 H </option>
-					    <option value="21 H 30"disabled>21 H 30</option>
-					    <option value="22 H "disabled>22 H </option>
-					    <option value="22 H 30"disabled>22 H 30</option>
-					</select>
-					<select id="peopleselect" class="bouton-select"  name="personne" required>
-					    <option value="">nombre personne</option>
-					    <option value="1 personne">1 personne</option>
-					    <option value="2 personne">2 personnes</option>
-					    <option value="3 personne">3 personnes</option>
-					    <option value="4 personne"selected>4 personnes</option>
-					    <option value="5 personne">5 personne</option>
-					    <option value="6 personne">6 personne</option>
-					</select>
+			<div class="parallax"></div>
+			<div class="block">
+				<div class="card">
+					<a href="Projet-web4.html">
+						<img src="image/markus-winkler-08aic3qPcag-unsplash.jpg" alt="bouffe asiat2">
+						<div class="details">
+							<h2>Soupes</h2>
+						</div>
+					</a>
 				</div>
-				<div class="button-select" id='select-now'>
-					<button type="submit"  class="button" onclick="fermer()">reserver maintenant</button> 
+				<div class="card">
+					<a href="Projet-web4.html">
+						<img src="image/markus-winkler-08aic3qPcag-unsplash.jpg" alt="bouffe asiat 3">
+						<div class="details">
+							<h2>Sushi</h2>
+						</div>
+					</a>
+				</div>
+				<div class="card">
+					<a href="Projet-web4.html">
+						<img src="image/markus-winkler-08aic3qPcag-unsplash.jpg" alt="bouffe asiat2">
+						<div class="details">
+							<h2>Nouille</h2>
+						</div>
+					</a>
 				</div>
 			</div>
+			<div class="parallax" id='aboutus-parallax'></div>
+			<form>
+				<h2 class="titre"><span>Reservation</span></h2>
+				<div class="formulaire" name="formul">
+					<div class="selecteurs">
+						<select id='jean' class="bouton-select" name="jour" required>
+							<option value="">choisir une date</option>
+							<option value="lundi">lundi</option>
+							<option value="mardi">mardi</option>
+							<option value="mercredi" selected>mercredi</option>
+							<option value="jeudi">jeudi</option>
+							<option value="vendredi">vendredi</option>
+							<option value="samedi">samedi</option>
+							<option value="dimanche">dimanche</option>
+						</select>
+						<select id="timeselect" class="bouton-select" name="heure" required>
+							<option value="">choisir une heure</option>
+							<option value="11h" disabled>11 H</option>
+							<option value="11 H 30">11 H 30</option>
+							<option value="12 H ">12 H</option>
+							<option value="12 H 30" disabled>12 H 30</option>
+							<option value="13 H ">13 H </option>
+							<option value="13 H 30">13 H 30</option>
+							<option value="14 H ">14 H </option>
+							<option value="14 H 30" disabled>14 H 30</option>
+							<option value="15 H ">15 H </option>
+							<option value="15 H 30">15 H 30</option>
+							<option value="16 H ">16 H </option>
+							<option value="16 H 30" selected>16 H 30</option>
+							<option value="17 H ">17 H </option>
+							<option value="17 H 30">17 H 30</option>
+							<option value="18 H ">18 H </option>
+							<option value="18 H 30" disabled>18 H 30</option>
+							<option value="19 H ">19 H </option>
+							<option value="19 H 30">19 H 30</option>
+							<option value="20 H ">20 H </option>
+							<option value="20 H 30">20 H 30</option>
+							<option value="21 H " disabled>21 H </option>
+							<option value="21 H 30" disabled>21 H 30</option>
+							<option value="22 H " disabled>22 H </option>
+							<option value="22 H 30" disabled>22 H 30</option>
+						</select>
+						<select id="peopleselect" class="bouton-select" name="personne" required>
+							<option value="">nombre personne</option>
+							<option value="1 personne">1 personne</option>
+							<option value="2 personne">2 personnes</option>
+							<option value="3 personne">3 personnes</option>
+							<option value="4 personne" selected>4 personnes</option>
+							<option value="5 personne">5 personne</option>
+							<option value="6 personne">6 personne</option>
+						</select>
+					</div>
+					<div class="button-select" id='select-now'>
+						<button type="submit" class="button" onclick="fermer()">reserver maintenant</button>
+					</div>
+				</div>
 			</form>
-			<footer class="footer">
-			  <section class="ft-main">
-			    <div class="ft-main-item">
-			      <h2 class="ft-title">à propos</h2>
-			      <ul>
-			        <li><a href="#aboutus">Services</a></li>
-			        <li><a href="#">L'équipe</a></li>
-			      </ul>
-			    </div>
-			    <div class="ft-main-item">
-			      <h2 class="ft-title">horaire d'ouverture</h2>
-			      <ul>
-			        <li>lundi-vendredi:11h30-22h</li>
-			        <li>samedi-dimanche:12h-23h</li>
-			      </ul>
-			    </div>
-			    <div class="ft-main-item">
-			      <h2 class="ft-title">adresse</h2>
-			      <ul>
-			        <li>30- 32 Avenue de la République, 94800 Villejuif</li>
-			      </ul>
-			    </div>
-			    <div class="ft-main-item">
-			      <h2 class="ft-title">Contactez-nous</h2>
-			      <ul>
-			        <li>0750986831</li>
-			        <li><a href="mailto:bekam129@hotmail.fr">bekam129@hotmail.fr</a></li>
-			      </ul>
-			    </div>
-			  </section>
-			  <section class="ft-social">
-			    <ul class="ft-social-list">
-			      <li><a href="#">facebook</a></li>
-			      <li><a href="#">twitter</a></li>
-			      <li><a href="#">instagram</a></li>
-			      <li><a href="#">tumblr</a></li>
-			      <li><a href="#">youtube</a></li>
-			    </ul>
-			  </section>
-			  <section class="ft-legal">
-			    <ul class="ft-legal-list">
-			      <li>2020 Copyright asian food</li>
-			    </ul>
-			  </section>
-			</footer>	
+			<footer class="footer" id='footer-contact'>
+				<section class="footer-main">
+					<div class="footer-main-item">
+						<h2 class="footer-title">à propos</h2>
+						<ul>
+							<li><a href="Projet-web2.html#aboutus">Services</a></li>
+							<li><a href="Projet-web3.html#aboutteam">L'équipe</a></li>
+						</ul>
+					</div>
+					<div class="footer-main-item">
+						<h2 class="footer-title">horaire d'ouverture</h2>
+						<ul>
+							<li>lundi-vendredi:11h30-22h</li>
+							<li>samedi-dimanche:12h-23h</li>
+						</ul>
+					</div>
+					<div class="footer-main-item">
+						<h2 class="footer-title">adresse</h2>
+						<ul>
+							<li>30- 32 Avenue de la République, 94800 Villejuif</li>
+						</ul>
+					</div>
+					<div class="footer-main-item">
+						<h2 class="footer-title">Contactez-nous</h2>
+						<ul>
+							<li>0750986831</li>
+							<li><a href="mailto:asma.benmessaoud.gabis@intervenants.efrei.net">asma.benmessaoud.gabis<br>@intervenants.efrei.net</a></li>
+						</ul>
+					</div>
+				</section>
+				<section class="footer-social">
+					<ul class="footer-social-list">
+						<li><a href="https://www.facebook.com">facebook</a></li>
+						<li><a href="https://twitter.com">twitter</a></li>
+						<li><a href="https://www.instagram.com">instagram</a></li>
+						<li><a href="https://www.tumblr.com">tumblr</a></li>
+						<li><a href="https://www.youtube.com">youtube</a></li>
+					</ul>
+				</section>
+				<section class="footer-legal">
+					<ul class="footer-legal-list">
+						<li>2020 Copyright asian food</li>
+					</ul>
+				</section>
+			</footer>
 		</main>		
 	</body>
 </html>
