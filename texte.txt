@@ -4,7 +4,7 @@
 4. Creation du footer (fait)
 5. card hover
 6. Parallax
-7. Reservation 
+7. Reservation (fait)
 8. Menu
 9. Commande en ligne
 
