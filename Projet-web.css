@@ -312,3 +312,16 @@ body {
         letter-spacing: 1px;
     }
 }
+
+/* smartphone */
+@media(max-width: 420px) {
+    .footer-main {
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 420px ) {
+    .footer-main {
+        justify-content: space-evenly;
+    }
+}
