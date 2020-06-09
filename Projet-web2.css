@@ -1,0 +1,84 @@
+
+.pimg1, .pimg2, .pimg3,.pimg4, .pimg5, .pimg6{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background-image:url('image/riku-lu-pNOepJdg2dk-unsplash.jpg');
+  min-height:400px;
+}
+
+.pimg2{
+  background-image:url('image/lily-banse-0yu7T5BFFC0-unsplash.jpg');
+  min-height:400px;
+}
+
+.pimg3{
+  background-image:url('image/sebastian-staines-SBCvP6i8hR8-unsplash.jpg');
+  min-height:600px;
+}
+.pimg4{
+  background-image:url('image/perry-grone-lbLgFFlADrY-unsplash.jpg');
+  min-height:400px;
+}
+
+.pimg5{
+  background-image:url('image/101664781_263882278290756_2091275836199010304_n.jpg');
+  min-height:400px;
+}
+
+.pimg6{
+  background-image:url('image/102286856_294166424930887_74507022476771328_n.jpg');
+  min-height:600px;
+}
+
+.ptext{
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+
+}
+.pimg1 .ptext,.pimg2 .ptext,.pimg4 .ptext
+{
+  padding-top: 200px;
+}
+.pimg3 .ptext
+{
+  padding-top: 300px;
+}
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+}
+
+.card-date, .card-title {
+  text-align:center;
+  text-transform:uppercase;
+  font-weight: bold;
+}
+.card-body {
+  text-align:center;  /*1*/
+  padding: 15px 20px; /*2*/
+  box-sizing: border-box; /*3*/
+}
+
+@media (max-width: 720px) 
+{
+  .pimg1 .ptext
+{
+  display: none;
+}

@@ -2,12 +2,12 @@
 2. Creation des fichiers
 3. Creation du header (fait)
 4. Creation du footer (fait)
-5. card hover
-6. Parallax
+5. card hover (en cours pas fini)
+6. Parallax (fait)
 7. Reservation (fait)
 8. Menu
 9. Commande en ligne
-10. A propos
-11. Equipe
-12. Service
+10. A propos (en cours)
+11. Equipe (fait)
+12. Service (en cours)
 13. Commande en ligne
