@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Projet-web</title>
+	<link rel="icon" href="image/favicon.png" />
+	<link rel="stylesheet" href="Projet-web.css">
+	<link rel="stylesheet" href="Projet-web4.css">
+	<script type="text/javascript" src="Projet-web.js"></script>
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+		<div class="header-logo"><img src="image/logo.png" /></div>
+			<nav class="nav-menu">
+				<ul class="nav-list">
+					<li><a href="Projet-web.html" class="active">Accueil</a></li>
+					<li><a href="#">Menu</a></li>
+					<li><a href="#footer-aboutus">À propos</a></li>
+					<li><a href="#footer-contact">Contact</a></li>
+					<li><a href="Projet-web.html#select-now">Réservation</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main class="main">
+		<form>
+			<h2 class="titre"><span>commande en ligne</span></h2>
+			<div class="formulaire" name="formul">
+				<div class="selecteurs">
+					<select id='repasselect' class="bouton-select" name="repas" required>
+					    <option value=""selected>choisir un repas</option>
+					    <option value="lundi">repas 1</option>
+					    <option value="mardi">repas 2</option>
+					    <option value="mercredi">repas 3</option>
+					    <option value="jeudi">repas 4</option>
+					    <option value="lundi">repas 5</option>
+					    <option value="mardi">repas 6</option>
+					    <option value="mercredi">repas 7</option>
+					    <option value="jeudi">repas 8</option>
+					    <option value="lundi">repas 9</option>
+					    <option value="mardi">repas 10</option>
+					    <option value="mercredi">repas 11</option>
+					    <option value="jeudi">repas 12</option>
+					</select>
+					<select id="quantiteselect" class="bouton-select"  name="quantite" required>
+					    <option value=""selected>choisir la quantité</option>
+					    <option value="1">1X</option>
+					    <option value="2">2X</option>
+					    <option value="3">3X</option>
+					    <option value="4">4X</option>
+					    <option value="5">5X</option>
+					    <option value="6">6X</option>
+					</select>
+				</div>
+
+				<div class="button-select" id='select-now'>
+					<button type="button"  class="button" onclick="ajouter()">ajouter</button> 
+				</div>
+				<div class="button-select" id='select-now'>
+					<button type="button"  class="button" onclick="supprimer()">supprimer</button> 
+				</div>
+			</div>
+			</form>
+			<table id="commandUser" class="table">
+				<h2 id="titre1">commande</h2>
+				<thead>
+					<tr class="row">
+						<th> Repas</th>
+						<th> quantité</th>
+						<th> prix</th>
+					</tr>
+				</thead>
+				<tbody id="tbodyUser">
+
+				</tbody>
+				<tfoot>
+					<div class="button-select" id='select-now'>
+						<button type="submit"  class="button" onclick="">commander</button> 
+					</div>
+				</tfoot>
+			</table>
+		<footer class="footer" id='footer-contact'>
+		  <section class="footer-main"id='footer-aboutus'>
+		    <div class="footer-main-item">
+		      <h2 class="footer-title">à propos</h2>
+		      <ul>
+		        <li><a href="Projet-web2.html#aboutus" >Services </a></li>
+			    <li><a href="Projet-web3.html#aboutteam" >L'équipe</a></li>
+		      </ul>
+		    </div>
+		    <div class="footer-main-item">
+		      <h2 class="footer-title">horaire d'ouverture</h2>
+		      <ul>
+		        <li>lundi-vendredi:11h30-22h</li>
+		        <li>samedi-dimanche:12h-23h</li>
+		      </ul>
+		    </div>
+		    <div class="footer-main-item">
+		      <h2 class="footer-title">adresse</h2>
+		      <ul>
+		        <li>30-32 Avenue de la République,<br>94800 Villejuif</li>
+		      </ul>
+		    </div>
+		    <div class="footer-main-item">
+		      <h2 class="footer-title">Contactez-nous</h2>
+		      <ul>
+		        <li>0750986831</li>
+		        <li><a href="mailto:asma.benmessaoud.gabis@intervenants.efrei.net">asma.benmessaoud.gabis<br>@intervenants.efrei.net</a></li>
+		      </ul>
+		    </div>
+		  </section>
+		  <section class="footer-social">
+		    <ul class="footer-social-list">
+		      <li><a href="https://www.facebook.com">facebook</a></li>
+		      <li><a href="https://twitter.com">twitter</a></li>
+		      <li><a href="https://www.instagram.com">instagram</a></li>
+		      <li><a href="https://www.tumblr.com">tumblr</a></li>
+		      <li><a href="https://www.youtube.com">youtube</a></li>
+		    </ul>
+		  </section>
+		  <section class="footer-legal">
+		    <ul class="footer-legal-list">
+		      <li>©2020 Copyright asian food</li>
+		    </ul>
+		  </section>
+		</footer>	
+	</main>		
+</body>
+</html>

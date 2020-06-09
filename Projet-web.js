@@ -21,3 +21,32 @@ function showService()
 	document.querySelector('#aboutteam').style.display="none";
 }
 */
+function ajouter ()
+{
+	if 	(document.getElementById("repasselect").checkValidity()&&document.getElementById("quantiteselect").checkValidity() )
+	{
+			
+			var repas = document.getElementById("repasselect").value;
+			var quantite = document.getElementById("quantiteselect").value;
+			alert(repas);
+			var table = document.querySelector("tbody");
+			var tr = document.createElement("tr");
+			quant=quantite
+			var prix=9;
+			var prixtotal=0
+			prixtotal=prix*quant;
+			tr.innerHTML = "<td>" + repas + "<td>" + quantite + "<td>" + prixtotal+ "$";
+			console.log(quantite);
+			table.appendChild(tr);
+	}
+	else
+	{
+		alert("remplissez tous les champs");
+	}      
+}
+
+function supprimer()
+{
+    var tbody = document.querySelector("tbody");
+    tbody.removeChild(tbody.firstChild);
+}
