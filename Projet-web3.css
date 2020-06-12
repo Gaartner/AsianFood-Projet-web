@@ -1,0 +1,70 @@
+.carte-menu-fond
+{
+  margin:-100px 0 -100px 0;
+  background-image: url("image/v2osk-N028PITAESc-unsplash.jpg");
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.carte-menu
+{
+  background-color:#fec24a; 
+  margin: 100px;
+  padding:20px;
+
+}
+.menu-title
+{
+  color:white;
+  font-size:27px;
+
+}
+.food-texte
+{
+  color:black;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+.food-main-title
+{
+  color:#c03a2b;
+  padding-top:5px;
+  padding-bottom:5px;
+  border-top: 4px black solid;
+  border-bottom: 4px black solid;
+}
+.txt
+{
+  color:black;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+.food-title
+{
+  color:#782821;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+.spicy-border
+{
+  width: 90px;
+}
+.spicy
+{
+  border: 5px solid #610000;
+  border-radius: 14px;
+  background-color:#610000;
+  color:white;
+  padding:10px;
+  box-sizing: border-box;
+}
+@media (max-width: 420px) 
+{
+   .carte-menu
+  {
+    background-color:#fec24a; 
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}

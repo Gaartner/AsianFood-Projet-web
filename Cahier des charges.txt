@@ -5,9 +5,10 @@
 5. card hover (fait)
 6. Parallax (fait)
 7. Reservation (fait)
-8. Menu
+8. Menu(fait)
 9. Commande en ligne
 10. A propos (fait)
 11. Equipe (fait)
 12. Service (fait)
 13. Commande en ligne (fait)
+14. Correction des bugs mineurs et des oublies de redirection
