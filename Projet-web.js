@@ -28,7 +28,6 @@ function ajouter ()
 			
 			var repas = document.getElementById("repasselect").value;
 			var quantite = document.getElementById("quantiteselect").value;
-			alert(repas);
 			var table = document.querySelector("tbody");
 			var tr = document.createElement("tr");
 			quant=quantite
@@ -38,15 +37,38 @@ function ajouter ()
 			tr.innerHTML = "<td>" + repas + "<td>" + quantite + "<td>" + prixtotal+ "$";
 			console.log(quantite);
 			table.appendChild(tr);
+			total()
 	}
 	else
 	{
 		alert("remplissez tous les champs");
 	}      
 }
+function total()
+{
+	var table = document.getElementById("tbodyUser"), sumVal = 0;
+            
+        for(var i = 0; i < table.rows.length; i++)
+	        {
+	            sumVal = sumVal + parseInt(table.rows[i].cells[2].innerHTML);
+	        }
+        
+        document.getElementById("val").innerHTML = "l'addition = " + sumVal+"$";
+        console.log(sumVal);
+    var tables = document.getElementById("tbodyUser"), sumVall = 0;
+            
+        for(var ii = 0; ii < table.rows.length; ii++)
+	        {
+	            sumVall = sumVall + parseInt(table.rows[ii].cells[1].innerHTML);
+	        }
+        
+        document.getElementById("item").innerHTML = "item = " + sumVall;
+        console.log(sumVall);
+}
 
 function supprimer()
 {
     var tbody = document.querySelector("tbody");
     tbody.removeChild(tbody.firstChild);
+    total()
 }

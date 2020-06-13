@@ -6,10 +6,7 @@
   background-size:cover;
   background-repeat:no-repeat;
 
-  /*
-    fixed = parallax
-    scroll = normal
-  */
+  /*fixed = parallax*/
   background-attachment:fixed;
 }
 
@@ -71,9 +68,9 @@
   font-weight: bold;
 }
 .card-body {
-  text-align:center;  /*1*/
-  padding: 15px 20px; /*2*/
-  box-sizing: border-box; /*3*/
+  text-align:center;
+  padding: 15px 20px; 
+  box-sizing: border-box; 
 }
 
 @media (max-width: 720px) 

@@ -11,4 +11,5 @@
 11. Equipe (fait)
 12. Service (fait)
 13. Commande en ligne (fait)
-14. Correction des bugs mineurs et des oublies de redirection
+14. Correction des bugs mineurs et des oublies de redirection (fait)
+Réalisation du site par l'équipe de Gärtner__
